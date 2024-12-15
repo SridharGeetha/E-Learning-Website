@@ -1,0 +1,12 @@
+#user-welcome{
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#user-col{
+    padding-bottom: 20px;
+}
+#user-card{
+    margin: 0px 70px 0px 70px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}

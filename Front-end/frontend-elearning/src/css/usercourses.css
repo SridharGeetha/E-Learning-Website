@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card-img-top{
+    border-radius: 50px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+}
+#card{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#ct{
+    color: #00B7C2;
+}
+#sp-ins{
+    font-weight: 500;
+    color: black;
+}
+#des{
+    color: #0D7377;
+}
+#course-view-link{
+    cursor: pointer;
+    color: skyblue;
+}
+#course-view-link:hover{
+    color: rgb(57, 142, 175);
+}

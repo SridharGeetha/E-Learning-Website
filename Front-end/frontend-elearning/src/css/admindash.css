@@ -1,0 +1,80 @@
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+#wrapper a{
+color: aliceblue;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.822);
+  color: rgb(255, 253, 253);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; 
+}
+
+#navbar-dashboard {
+  position: fixed;
+  width: calc(100% - 250px); 
+  top: 0;
+  z-index: 1100; 
+}
+
+#page-content-wrapper {
+  width: 100%;
+  margin-top: 60px; 
+  margin-left: 250px;
+  padding: 20px;
+  overflow-x: hidden;
+}
+  #sidebar-wrapper .list-group {
+    width: 15rem;
+    
+  }
+  .list-group-item {
+    border: none;
+    padding: 10px 20px;
+    
+  }
+  .list-group-item:hover{
+    background-color: transparent;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+ 
+  .username {
+    margin-left: 10px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  /* navbar  */
+
+
+
+  /* admin box */
+
+
+  .box {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .stat {
+    font-size: 20px;
+    font-weight: bold;
+    color: #337ab7;
+    cursor: pointer;
+  }
+
+  /* table */
+
+ 
