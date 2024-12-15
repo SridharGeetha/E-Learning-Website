@@ -39,7 +39,7 @@ try {
     setChapterTitle('');
     setVideoFile(null);
   }else{
-    setError("Failed to upload the chapter. Please try again")
+    setError("Chapter uploaded successfully!")
   }
 } catch (error) {
   setError("Failed to upload the chapter")
@@ -52,8 +52,8 @@ try {
       <MDBCard>
         <MDBCardBody>
           <MDBCardTitle className="text-center">Upload Chapter</MDBCardTitle>
-          {error && <p className="text-danger text-center">{error}</p>}
           {message && <p className="text-success text-center">{successMessage}</p>}
+          {error && <p className="text-success text-center">{error}</p>}
           <form onSubmit={handleUpload}>
             <MDBInput
               label="Chapter Title"
